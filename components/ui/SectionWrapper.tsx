@@ -44,7 +44,7 @@ export function SectionHeader({
       className={cn("mb-14 max-w-2xl", align === "center" && "mx-auto text-center")}
     >
       {eyebrow && (
-        <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">{eyebrow}</p>
+        <p className="mb-3 text-sm font-medium uppercase tracking-widest text-[var(--primary)]">{eyebrow}</p>
       )}
       <h2 className="font-heading text-3xl font-semibold tracking-tight text-text md:text-4xl">{title}</h2>
       {description && <p className="mt-4 text-base leading-relaxed text-text/70">{description}</p>}

@@ -21,3 +21,11 @@ export const NAV_LINKS = [
   { label: "Process", href: "#process" },
   { label: "Contact", href: "#contact" },
 ] as const;
+
+export const SOCIAL_LINKS = [
+  { label: "Instagram", href: "https://www.instagram.com/purelinkfoods/" },
+  { label: "Facebook", href: " https://www.facebook.com/profile.php?id=61591147162961" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/purelink-foods-47a674417/" },
+  { label: "X", href: " https://x.com/purelinkfoods" },
+  { label: "YouTube", href: "https://youtube.com/@purelinkfoods?si=dn2WmCQHtMivaGVW" },
+] as const;

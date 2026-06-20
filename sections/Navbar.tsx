@@ -35,7 +35,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-sm font-medium text-text/80 transition-colors hover:text-primary"
+                className="text-sm font-medium text-text/80 transition-colors hover:text-[var(--primary)]"
               >
                 {link.label}
               </Link>
@@ -45,7 +45,8 @@ export function Navbar() {
 
         <Link
           href="#contact"
-          className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary/90 md:inline-flex"
+          style={{ background: 'var(--primary)' }}
+          className="hidden rounded-full px-5 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-95 md:inline-flex"
         >
           Request Quote
         </Link>
