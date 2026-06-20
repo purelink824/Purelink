@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { SectionHeader, SectionWrapper } from "@/components/ui/SectionWrapper";
 import { PROCESS_STEPS } from "@/constants/process";
 import { fadeUp, staggerContainer } from "@/lib/animations";
-const stepVariants = {
+const stepVariants: any = {
   hidden: { opacity: 0, y: 16, scale: 0.98 },
   visible: (i: number) => ({
     opacity: 1,
@@ -14,7 +14,7 @@ const stepVariants = {
   }),
 };
 
-const lineTransition = { duration: 0.9, ease: [0.22, 1, 0.36, 1] };
+const lineTransition: any = { duration: 0.9, ease: [0.22, 1, 0.36, 1] };
 
 export function Process() {
   return (
